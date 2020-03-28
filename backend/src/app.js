@@ -12,6 +12,4 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
-server.listen(3333, () => {
-    console.log("Server Listening at 3333");
-});
+module.exports = app;
